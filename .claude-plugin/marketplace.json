@@ -1,0 +1,289 @@
+{
+  "name": "complete-ui-ux-css-marketplace",
+  "owner": {
+    "name": "Ehsan",
+    "email": "ehsan@gis-dev.com",
+    "url": "https://github.com/ehsan"
+  },
+  "metadata": {
+    "description": "Complete UI/UX/CSS marketplace covering entire CSS roadmap with enterprise features",
+    "version": "2.0.0",
+    "keywords": ["ui", "ux", "css", "scss", "design-system", "frontend", "enterprise", "complete"],
+    "category": "design",
+    "license": "MIT"
+  },
+  "plugins": [
+    {
+      "name": "css-architecture",
+      "source": "./plugins/css-architecture",
+      "description": "Modern CSS/SCSS architecture patterns and methodologies",
+      "version": "1.0.0",
+      "category": "architecture",
+      "agents": ["./agents/css-architect.md"],
+      "commands": ["./commands/generate-architecture.md"]
+    },
+    {
+      "name": "sass-advanced",
+      "source": "./plugins/sass-advanced",
+      "description": "Advanced SASS/SCSS preprocessing with mixins, functions, and modules",
+      "version": "1.0.0",
+      "category": "preprocessor",
+      "agents": ["./agents/sass-specialist.md"],
+      "commands": ["./commands/generate-sass-architecture.md"]
+    },
+    {
+      "name": "postcss",
+      "source": "./plugins/postcss",
+      "description": "PostCSS build tools, autoprefixing, and modern CSS processing",
+      "version": "1.0.0",
+      "category": "build-tools",
+      "agents": ["./agents/postcss-engineer.md"],
+      "commands": ["./commands/setup-postcss.md"]
+    },
+    {
+      "name": "css-methodologies",
+      "source": "./plugins/css-methodologies",
+      "description": "BEM, OOCSS, SMACSS, ITCSS, and other CSS methodologies",
+      "version": "1.0.0",
+      "category": "architecture",
+      "agents": ["./agents/methodology-expert.md"],
+      "commands": ["./commands/implement-bem.md"]
+    },
+    {
+      "name": "css-in-js",
+      "source": "./plugins/css-in-js",
+      "description": "CSS-in-JS solutions for React, Vue, and Angular",
+      "version": "1.0.0",
+      "category": "runtime-styling",
+      "agents": ["./agents/css-in-js-architect.md"],
+      "commands": ["./commands/setup-css-in-js.md"]
+    },
+    {
+      "name": "styled-components",
+      "source": "./plugins/styled-components",
+      "description": "Styled Components for React with dynamic theming",
+      "version": "1.0.0",
+      "category": "react-styling",
+      "agents": ["./agents/styled-components-expert.md"]
+    },
+    {
+      "name": "css-modules",
+      "source": "./plugins/css-modules",
+      "description": "CSS Modules for scoped and modular styling",
+      "version": "1.0.0",
+      "category": "modular-css",
+      "agents": ["./agents/css-modules-specialist.md"]
+    },
+    {
+      "name": "tailwind-css",
+      "source": "./plugins/tailwind-css",
+      "description": "Tailwind CSS utility-first framework mastery",
+      "version": "1.0.0",
+      "category": "utility-first",
+      "agents": ["./agents/tailwind-specialist.md"],
+      "commands": ["./commands/setup-tailwind.md"]
+    },
+    {
+      "name": "bootstrap",
+      "source": "./plugins/bootstrap",
+      "description": "Bootstrap 5 components and responsive design",
+      "version": "1.0.0",
+      "category": "component-library",
+      "agents": ["./agents/bootstrap-specialist.md"]
+    },
+    {
+      "name": "angular-material",
+      "source": "./plugins/angular-material",
+      "description": "Angular Material components and CDK",
+      "version": "1.0.0",
+      "category": "angular",
+      "agents": ["./agents/angular-material-specialist.md"]
+    },
+    {
+      "name": "ant-design",
+      "source": "./plugins/ant-design",
+      "description": "Ant Design (NG-ZORRO) for Angular enterprise apps",
+      "version": "1.0.0",
+      "category": "enterprise-ui",
+      "agents": ["./agents/ant-design-specialist.md"]
+    },
+    {
+      "name": "primeng",
+      "source": "./plugins/primeng",
+      "description": "PrimeNG components for Angular applications",
+      "version": "1.0.0",
+      "category": "angular",
+      "agents": ["./agents/primeng-specialist.md"]
+    },
+    {
+      "name": "grid-flexbox",
+      "source": "./plugins/grid-flexbox",
+      "description": "CSS Grid and Flexbox advanced layout patterns",
+      "version": "1.0.0",
+      "category": "layout",
+      "agents": ["./agents/layout-master.md"],
+      "commands": ["./commands/generate-grid-layout.md"]
+    },
+    {
+      "name": "container-queries",
+      "source": "./plugins/container-queries",
+      "description": "Container queries and modern responsive patterns",
+      "version": "1.0.0",
+      "category": "responsive",
+      "agents": ["./agents/container-queries-expert.md"]
+    },
+    {
+      "name": "responsive-design",
+      "source": "./plugins/responsive-design",
+      "description": "Mobile-first responsive design strategies",
+      "version": "1.0.0",
+      "category": "responsive",
+      "agents": ["./agents/responsive-specialist.md"]
+    },
+    {
+      "name": "css-variables",
+      "source": "./plugins/css-variables",
+      "description": "CSS custom properties and dynamic theming",
+      "version": "1.0.0",
+      "category": "modern-css",
+      "agents": ["./agents/css-variables-expert.md"]
+    },
+    {
+      "name": "css-functions",
+      "source": "./plugins/css-functions",
+      "description": "CSS functions: calc(), clamp(), min(), max(), and more",
+      "version": "1.0.0",
+      "category": "modern-css",
+      "agents": ["./agents/css-functions-master.md"]
+    },
+    {
+      "name": "modern-selectors",
+      "source": "./plugins/modern-selectors",
+      "description": "Modern CSS selectors: :has(), :is(), :where(), and more",
+      "version": "1.0.0",
+      "category": "modern-css",
+      "agents": ["./agents/selectors-expert.md"]
+    },
+    {
+      "name": "animations",
+      "source": "./plugins/animations",
+      "description": "CSS animations, keyframes, and animation libraries",
+      "version": "1.0.0",
+      "category": "animation",
+      "agents": ["./agents/animation-engineer.md"],
+      "commands": ["./commands/create-animation.md"]
+    },
+    {
+      "name": "transitions",
+      "source": "./plugins/transitions",
+      "description": "CSS transitions and smooth state changes",
+      "version": "1.0.0",
+      "category": "animation",
+      "agents": ["./agents/transition-specialist.md"]
+    },
+    {
+      "name": "3d-transforms",
+      "source": "./plugins/3d-transforms",
+      "description": "3D transforms, perspective, and WebGL integration",
+      "version": "1.0.0",
+      "category": "animation",
+      "agents": ["./agents/3d-css-expert.md"]
+    },
+    {
+      "name": "typography",
+      "source": "./plugins/typography",
+      "description": "Typography systems, font scaling, and text styling",
+      "version": "1.0.0",
+      "category": "design",
+      "agents": ["./agents/typography-specialist.md"]
+    },
+    {
+      "name": "web-fonts",
+      "source": "./plugins/web-fonts",
+      "description": "Web fonts optimization, loading strategies, and variable fonts",
+      "version": "1.0.0",
+      "category": "performance",
+      "agents": ["./agents/web-fonts-expert.md"]
+    },
+    {
+      "name": "performance",
+      "source": "./plugins/performance",
+      "description": "CSS performance optimization and best practices",
+      "version": "1.0.0",
+      "category": "optimization",
+      "agents": ["./agents/performance-engineer.md"]
+    },
+    {
+      "name": "critical-css",
+      "source": "./plugins/critical-css",
+      "description": "Critical CSS extraction and above-the-fold optimization",
+      "version": "1.0.0",
+      "category": "optimization",
+      "agents": ["./agents/critical-css-specialist.md"]
+    },
+    {
+      "name": "enterprise-css",
+      "source": "./plugins/enterprise-css",
+      "description": "Enterprise CSS architecture for large-scale applications",
+      "version": "1.0.0",
+      "category": "enterprise",
+      "agents": ["./agents/enterprise-css-specialist.md"]
+    },
+    {
+      "name": "map-styling",
+      "source": "./plugins/map-styling",
+      "description": "Map styling for Leaflet, Mapbox, and GIS applications",
+      "version": "1.0.0",
+      "category": "specialty",
+      "agents": ["./agents/map-styling-specialist.md"]
+    },
+    {
+      "name": "accessibility",
+      "source": "./plugins/accessibility",
+      "description": "WCAG compliance and accessibility best practices",
+      "version": "1.0.0",
+      "category": "a11y",
+      "agents": ["./agents/accessibility-specialist.md"]
+    },
+    {
+      "name": "print-styles",
+      "source": "./plugins/print-styles",
+      "description": "Print media queries and document styling",
+      "version": "1.0.0",
+      "category": "specialty",
+      "agents": ["./agents/print-styles-expert.md"]
+    },
+    {
+      "name": "email-templates",
+      "source": "./plugins/email-templates",
+      "description": "Responsive email templates and inline styling",
+      "version": "1.0.0",
+      "category": "specialty",
+      "agents": ["./agents/email-template-specialist.md"]
+    },
+    {
+      "name": "theme-system",
+      "source": "./plugins/theme-system",
+      "description": "Theme systems and multi-brand support",
+      "version": "1.0.0",
+      "category": "design-system",
+      "agents": ["./agents/theme-architect.md"]
+    },
+    {
+      "name": "design-tokens",
+      "source": "./plugins/design-tokens",
+      "description": "Design tokens and systematic design",
+      "version": "1.0.0",
+      "category": "design-system",
+      "agents": ["./agents/design-tokens-expert.md"]
+    },
+    {
+      "name": "dark-mode",
+      "source": "./plugins/dark-mode",
+      "description": "Dark mode implementation and color scheme switching",
+      "version": "1.0.0",
+      "category": "theming",
+      "agents": ["./agents/dark-mode-specialist.md"]
+    }
+  ]
+}
