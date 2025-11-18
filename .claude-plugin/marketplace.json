@@ -43,11 +43,12 @@
     {
       "name": "css-methodologies",
       "source": "./plugins/css-methodologies",
-      "description": "BEM, OOCSS, SMACSS, ITCSS, and other CSS methodologies",
-      "version": "1.0.0",
+      "description": "BEM, OOCSS, SMACSS, ITCSS, and CUBE CSS methodologies with comprehensive patterns library and interactive selection wizard",
+      "version": "2.0.0",
       "category": "architecture",
       "agents": ["./agents/methodology-expert.md"],
-      "commands": ["./commands/implement-bem.md"]
+      "skills": ["./skills/methodology-patterns/skill.md"],
+      "commands": ["./commands/select-methodology.md"]
     },
     {
       "name": "css-in-js",
@@ -224,10 +225,12 @@
     {
       "name": "enterprise-css",
       "source": "./plugins/enterprise-css",
-      "description": "Enterprise CSS architecture for large-scale applications",
-      "version": "1.0.0",
+      "description": "Enterprise CSS architecture for large-scale applications with comprehensive patterns library",
+      "version": "2.0.0",
       "category": "enterprise",
-      "agents": ["./agents/enterprise-css-specialist.md"]
+      "agents": ["./agents/enterprise-css-specialist.md"],
+      "skills": ["./skills/enterprise-patterns/skill.md"],
+      "commands": ["./commands/generate-enterprise-architecture.md"]
     },
     {
       "name": "map-styling",
