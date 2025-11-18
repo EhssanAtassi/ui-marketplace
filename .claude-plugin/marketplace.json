@@ -287,10 +287,17 @@
     {
       "name": "theme-system",
       "source": "./plugins/theme-system",
-      "description": "Theme systems and multi-brand support",
-      "version": "1.0.0",
+      "description": "Enterprise theme systems with design tokens, multi-brand support, CSS variables, and WCAG validation",
+      "version": "1.1.0",
       "category": "design-system",
-      "agents": ["./agents/theme-architect.md"]
+      "agents": ["./agents/theme-architect.md"],
+      "skills": ["./skills/theme-patterns-reference/skill.md"],
+      "commands": [
+        "./commands/generate-theme.md",
+        "./commands/setup-multi-brand.md",
+        "./commands/create-design-tokens.md",
+        "./commands/validate-theme-contrast.md"
+      ]
     },
     {
       "name": "design-tokens",
