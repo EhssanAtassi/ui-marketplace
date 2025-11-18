@@ -232,11 +232,15 @@
     {
       "name": "map-styling",
       "source": "./plugins/map-styling",
-      "description": "Map styling for Leaflet, Mapbox, and GIS applications with themes and interactive wizards",
-      "version": "1.1.0",
+      "description": "Comprehensive map styling for Leaflet and Mapbox GL JS with 3 searchable skill libraries, themes, and interactive wizards",
+      "version": "2.0.0",
       "category": "specialty",
       "agents": ["./agents/map-styling-specialist.md"],
-      "skills": ["./skills/map-styling-patterns/skill.md"],
+      "skills": [
+        "./skills/map-styling-patterns/skill.md",
+        "./skills/mapbox-gl-patterns/skill.md",
+        "./skills/leaflet-cookbook/skill.md"
+      ],
       "commands": ["./commands/style-map.md", "./commands/generate-map-theme.md"]
     },
     {
