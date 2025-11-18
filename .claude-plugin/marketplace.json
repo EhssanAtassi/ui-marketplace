@@ -169,10 +169,15 @@
     {
       "name": "modern-selectors",
       "source": "./plugins/modern-selectors",
-      "description": "Modern CSS selectors: :has(), :is(), :where(), and more",
-      "version": "1.0.0",
+      "description": "Modern CSS selectors: :has(), :is(), :where(), :not() with comprehensive reference and interactive tools",
+      "version": "1.1.0",
       "category": "modern-css",
-      "agents": ["./agents/selectors-expert.md"]
+      "agents": ["./agents/selectors-expert.md"],
+      "skills": ["./skills/modern-selectors-reference/skill.md"],
+      "commands": [
+        "./commands/find-selector-pattern.md",
+        "./commands/calculate-specificity.md"
+      ]
     },
     {
       "name": "animations",
