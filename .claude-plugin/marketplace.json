@@ -284,6 +284,16 @@
       "version": "1.0.0",
       "category": "theming",
       "agents": ["./agents/dark-mode-specialist.md"]
+    },
+    {
+      "name": "ui-design-visualizer",
+      "source": "./plugins/ui-design-visualizer",
+      "description": "AI-powered UI/UX design visualizer with wireframe generation and prototyping",
+      "version": "1.0.0",
+      "category": "design",
+      "agents": ["./agents/design-brain.md"],
+      "skills": ["./skills/ui-patterns-library/skill.md", "./skills/wireframe-templates/skill.md"],
+      "commands": ["./commands/design-ui.md", "./commands/generate-wireframe.md", "./commands/create-component-library.md"]
     }
   ]
 }
