@@ -95,10 +95,12 @@
     {
       "name": "angular-material",
       "source": "./plugins/angular-material",
-      "description": "Angular Material components and CDK",
-      "version": "1.0.0",
+      "description": "Angular Material components, CDK, and comprehensive theming with interactive generators",
+      "version": "1.1.0",
       "category": "angular",
-      "agents": ["./agents/angular-material-specialist.md"]
+      "agents": ["./agents/angular-material-specialist.md"],
+      "skills": ["./skills/material-components-reference/skill.md"],
+      "commands": ["./commands/generate-material-component.md", "./commands/create-material-theme.md"]
     },
     {
       "name": "ant-design",
