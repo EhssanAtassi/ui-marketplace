@@ -34,11 +34,16 @@
     {
       "name": "postcss",
       "source": "./plugins/postcss",
-      "description": "PostCSS build tools, autoprefixing, and modern CSS processing",
-      "version": "1.0.0",
+      "description": "PostCSS build tools with autoprefixing, modern CSS processing, custom plugins, and optimization",
+      "version": "1.1.0",
       "category": "build-tools",
       "agents": ["./agents/postcss-engineer.md"],
-      "commands": ["./commands/setup-postcss.md"]
+      "skills": ["./skills/postcss-plugins-reference/skill.md"],
+      "commands": [
+        "./commands/setup-postcss.md",
+        "./commands/create-postcss-plugin.md",
+        "./commands/optimize-postcss-config.md"
+      ]
     },
     {
       "name": "css-methodologies",
@@ -191,10 +196,12 @@
     {
       "name": "transitions",
       "source": "./plugins/transitions",
-      "description": "CSS transitions and smooth state changes",
-      "version": "1.0.0",
+      "description": "CSS transitions and smooth state changes with timing functions and performance patterns",
+      "version": "1.1.0",
       "category": "animation",
-      "agents": ["./agents/transition-specialist.md"]
+      "agents": ["./agents/transition-specialist.md"],
+      "skills": ["./skills/transition-patterns-reference/skill.md"],
+      "commands": ["./commands/create-transition.md", "./commands/generate-transition-presets.md"]
     },
     {
       "name": "3d-transforms",
@@ -215,10 +222,16 @@
     {
       "name": "web-fonts",
       "source": "./plugins/web-fonts",
-      "description": "Web fonts optimization, loading strategies, and variable fonts",
-      "version": "1.0.0",
+      "description": "Web fonts optimization with font-display, WOFF2, variable fonts, self-hosting, and preloading",
+      "version": "1.1.0",
       "category": "performance",
-      "agents": ["./agents/web-fonts-expert.md"]
+      "agents": ["./agents/web-fonts-expert.md"],
+      "skills": ["./skills/font-optimization-reference/skill.md"],
+      "commands": [
+        "./commands/optimize-fonts.md",
+        "./commands/self-host-google-fonts.md",
+        "./commands/generate-font-preload.md"
+      ]
     },
     {
       "name": "performance",
