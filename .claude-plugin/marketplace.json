@@ -38,7 +38,7 @@
       "version": "1.1.0",
       "category": "build-tools",
       "agents": ["./agents/postcss-engineer.md"],
-      "skills": ["./skills/postcss-plugins-reference/skill.md"],
+      "skills": ["./skills/postcss-plugins-reference"],
       "commands": [
         "./commands/setup-postcss.md",
         "./commands/create-postcss-plugin.md",
@@ -52,7 +52,7 @@
       "version": "2.0.0",
       "category": "architecture",
       "agents": ["./agents/methodology-expert.md"],
-      "skills": ["./skills/methodology-patterns/skill.md"],
+      "skills": ["./skills/methodology-patterns"],
       "commands": ["./commands/select-methodology.md"]
     },
     {
@@ -71,7 +71,7 @@
       "version": "1.1.0",
       "category": "react-styling",
       "agents": ["./agents/styled-components-expert.md"],
-      "skills": ["./skills/styled-components-reference/skill.md"],
+      "skills": ["./skills/styled-components-reference"],
       "commands": [
         "./commands/setup-styled-components.md",
         "./commands/create-theme.md",
@@ -111,7 +111,7 @@
       "version": "1.1.0",
       "category": "angular",
       "agents": ["./agents/angular-material-specialist.md"],
-      "skills": ["./skills/material-components-reference/skill.md"],
+      "skills": ["./skills/material-components-reference"],
       "commands": ["./commands/generate-material-component.md", "./commands/create-material-theme.md"]
     },
     {
@@ -178,7 +178,7 @@
       "version": "1.1.0",
       "category": "modern-css",
       "agents": ["./agents/selectors-expert.md"],
-      "skills": ["./skills/modern-selectors-reference/skill.md"],
+      "skills": ["./skills/modern-selectors-reference"],
       "commands": [
         "./commands/find-selector-pattern.md",
         "./commands/calculate-specificity.md"
@@ -200,7 +200,7 @@
       "version": "1.1.0",
       "category": "animation",
       "agents": ["./agents/transition-specialist.md"],
-      "skills": ["./skills/transition-patterns-reference/skill.md"],
+      "skills": ["./skills/transition-patterns-reference"],
       "commands": ["./commands/create-transition.md", "./commands/generate-transition-presets.md"]
     },
     {
@@ -226,7 +226,7 @@
       "version": "1.1.0",
       "category": "performance",
       "agents": ["./agents/web-fonts-expert.md"],
-      "skills": ["./skills/font-optimization-reference/skill.md"],
+      "skills": ["./skills/font-optimization-reference"],
       "commands": [
         "./commands/optimize-fonts.md",
         "./commands/self-host-google-fonts.md",
@@ -256,7 +256,7 @@
       "version": "2.0.0",
       "category": "enterprise",
       "agents": ["./agents/enterprise-css-specialist.md"],
-      "skills": ["./skills/enterprise-patterns/skill.md"],
+      "skills": ["./skills/enterprise-patterns"],
       "commands": ["./commands/generate-enterprise-architecture.md"]
     },
     {
@@ -267,9 +267,9 @@
       "category": "specialty",
       "agents": ["./agents/map-styling-specialist.md"],
       "skills": [
-        "./skills/map-styling-patterns/skill.md",
-        "./skills/mapbox-gl-patterns/skill.md",
-        "./skills/leaflet-cookbook/skill.md"
+        "./skills/map-styling-patterns",
+        "./skills/mapbox-gl-patterns",
+        "./skills/leaflet-cookbook"
       ],
       "commands": ["./commands/style-map.md", "./commands/generate-map-theme.md"]
     },
@@ -304,7 +304,7 @@
       "version": "1.1.0",
       "category": "design-system",
       "agents": ["./agents/theme-architect.md"],
-      "skills": ["./skills/theme-patterns-reference/skill.md"],
+      "skills": ["./skills/theme-patterns-reference"],
       "commands": [
         "./commands/generate-theme.md",
         "./commands/setup-multi-brand.md",
@@ -335,7 +335,7 @@
       "version": "1.0.0",
       "category": "design",
       "agents": ["./agents/design-brain.md"],
-      "skills": ["./skills/ui-patterns-library/skill.md", "./skills/wireframe-templates/skill.md"],
+      "skills": ["./skills/ui-patterns-library", "./skills/wireframe-templates"],
       "commands": ["./commands/design-ui.md", "./commands/generate-wireframe.md", "./commands/create-component-library.md"]
     }
   ]
